@@ -1,0 +1,19 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "hello project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,pug index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alina Karashasheva",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.0-beta11"
+  }
+}

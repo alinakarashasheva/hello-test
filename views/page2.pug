@@ -1,0 +1,10 @@
+doctype html
+html
+	include head.pug
+
+body
+	h1 Hello, #{name}
+	form(action="/page2" method="post")
+		input(type="text" name="name" required)
+		input(type="submit" value="Save")
+	a(href="/") Back to home
